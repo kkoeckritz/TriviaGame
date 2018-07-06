@@ -36,8 +36,7 @@ button {
     color: white;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 13.5pt;
-    background-color: black;
-    /* background-color: #4aaaa5; re-themed for RPG */
+    background-color: #4aaaa5;
     border: none;
 }
 
@@ -132,44 +131,10 @@ button {
 }
 
 
-/* for RPG page */
+/* for Trivia page */
 @font-face {
     font-family: textile;
     src: url("../fonts/Textile.ttf")
-}
-
-#g_title {
-    padding: 10px;
-    width: fit-content;
-
-    color: white;
-    background-color: black;
-    font-family: textile;
-}
-
-.char_div {
-    display: inline-block;
-
-    /* width: 130px;
-    height: 200px; */
-    color: white;
-    border: solid 1px whitesmoke;
-}
-
-.char_div>p {
-    text-align: center;
-}
-
-.char_unselected {
-    background-color: darkgreen;
-}
-
-.hero_div {
-    background-color: darkblue;
-}
-
-.defender_div {
-    background-color: darkred;
 }
 
 
