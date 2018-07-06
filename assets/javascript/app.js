@@ -29,11 +29,11 @@ var game = {
         setTimeout(function() {
             console.log("SET");
             $("#g_timer").html("<h2>SET</h2>");
-        }, 750);
+        }, 1000);
         setTimeout(function() {
             console.log("GO");
             $("#g_timer").html("<h2>GO!</h2>");
-        }, 1500);
+        }, 2000);
 
     },
     displayQuestion: function(question) {
@@ -59,6 +59,16 @@ var game = {
 
 
 $().ready(function() {
+    // COUNTER FOR TESTING --------------------
+    var foo = 0;
+    setInterval(function() {
+        $("#test_count").html(`<p>${foo}</p>`);
+        foo++;
+    }, 1000);
+    // ----------------------------------------
+
+
+
     // show intro screen
     game.startOver();
 
@@ -74,10 +84,10 @@ $().ready(function() {
                 q_num++;
             }, 12000 + 12000 * q_num);
         }
-    }, 2000);
+    }, 1000);
 
     // then show score
     setTimeout(function() {
         game.displayScore();
-    }, 4000 + 12000 * Object.keys(questions).length);
+    }, 3000 + 12000 * Object.keys(questions).length);
 })
