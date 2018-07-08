@@ -27,7 +27,7 @@ var questions = {
         correct: "a3"
     },
     3: {
-        ask: "\"Hey, bro! Where's the Grand Canyon bro? Slackline bro!\"",
+        ask: "\"Hey, bro! Where's the Grand Canyon bro? Slacklinin', bro!\"",
         answers: {
             a1: "Colorado",
             a2: "Arizona",
