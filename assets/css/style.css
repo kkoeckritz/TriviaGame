@@ -181,7 +181,7 @@ h4:hover {
 }
 
 .selected {
-    border: 1px dashed blue;
+    border: 1px dashed darkred;
 }
 
 
