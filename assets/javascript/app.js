@@ -9,7 +9,7 @@ var questions = {
         correct: "a2"
     },
     1: {
-        ask: "\"I need to get to Hollywood?\"",
+        ask: "\"I need to get to Hollywood!\"",
         answers: {
             a1: "Go to Los Angeles",
             a2: "Head to Milwaukee",
@@ -18,7 +18,7 @@ var questions = {
         correct: "a1"
     },
     2: {
-        ask: "\"Where can I take my boat to see the Statue of Liberty\"",
+        ask: "\"Where can I take my boat to see the Statue of Liberty?\"",
         answers: {
             a1: "Ellis Island",
             a2: "Staten Island",
@@ -27,7 +27,7 @@ var questions = {
         correct: "a3"
     },
     3: {
-        ask: "\"Hey, bro! Where's the Grand Canyon bro? Slacklinin', bro!\"",
+        ask: "\"Hey bro! Where's the Grand Canyon bro? Slacklinin' bro!\"",
         answers: {
             a1: "Colorado",
             a2: "Arizona",
