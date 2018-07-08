@@ -1,48 +1,48 @@
 var questions = {
     0: {
-        ask: "\"Sorry to bother you - where is the capital of Turkey?\"",
+        ask: "\"Sorry to bother you - where is the capital of Wyoming?\"",
         answers: {
-            a1: "Istanbul",
-            a2: "Constantinople",
-            a3: "Ankara"
+            a1: "Jackson",
+            a2: "Cheyenne",
+            a3: "Laramie"
         },
-        correct: "a3"
+        correct: "a2"
     },
     1: {
-        ask: "\"Excuse me - where can I find Hollywood?\"",
+        ask: "\"I need to get to Hollywood?\"",
         answers: {
-            a1: "Los Angeles",
-            a2: "Milwaukee",
-            a3: "Chicago"
+            a1: "Go to Los Angeles",
+            a2: "Head to Milwaukee",
+            a3: "Try Chicago"
         },
         correct: "a1"
     },
     2: {
-        ask: "Third question?",
+        ask: "\"Where can I take my boat to see the Statue of Liberty\"",
         answers: {
-            a1: "Not this one",
-            a2: "This neither.",
-            a3: "Here we go."
+            a1: "Ellis Island",
+            a2: "Staten Island",
+            a3: "Liberty Island"
         },
         correct: "a3"
     },
     3: {
-        ask: "Fourth question?",
+        ask: "\"Hey, bro! Where's the Grand Canyon bro? Slackline bro!\"",
         answers: {
-            a1: "Dis here",
-            a2: "Not dis",
-            a3: "Nor dis"
-        },
-        correct: "a1"
-    },
-    4: {
-        ask: "Fifth question?",
-        answers: {
-            a1: "No",
-            a2: "Yes",
-            a3: "No"
+            a1: "Colorado",
+            a2: "Arizona",
+            a3: "New Mexico"
         },
         correct: "a2"
+    },
+    4: {
+        ask: "\"Hi there, big Mickey Mouse fan. How do I get to Disney World?\"",
+        answers: {
+            a1: "I think it's in Southern California...",
+            a2: "It's on the East Coast somewhere",
+            a3: "You're going to have to go to Florida"
+        },
+        correct: "a3"
     }
 }
 
@@ -70,7 +70,6 @@ var game = {
             console.log("GO");
             $("#g_timer").html("<h2>GO!</h2>");
         }, 1000);
-
     },
     displayQuestion: function(question) {
         // show countdown; decrement to 0
