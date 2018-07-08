@@ -1,4 +1,4 @@
-/* applied to elements */
+/* applied to elements ____________________ */
 body {
     background-color: white;
     background-image: url("../images/funky-lines.png");
@@ -10,10 +10,14 @@ h1 {
 }
 
 h2 {
-    font-size: 16pt;
+    font-size: 18pt;
 }
 
 h3 {
+    font-size: 16pt;
+}
+
+h4 {
     font-size: 14pt;
 }
 
@@ -41,7 +45,7 @@ button {
 }
 
 
-/* applied to classes in index or shared by all pages */
+/* applied to classes in index or shared by all pages ____________________ */
 .navbar {
     border-bottom: 1px solid #cccccc;
     background-color: #ffffff;
@@ -93,7 +97,7 @@ button {
 
 .content>h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
-    color: #4aaaa5;
+    color: darkred;
 }
 
 .content>img {
@@ -131,14 +135,57 @@ button {
 }
 
 
-/* for Trivia page */
+/* for Trivia page ____________________ */
 @font-face {
     font-family: textile;
-    src: url("../fonts/Textile.ttf")
+    src: url("../fonts/Textile.ttf");
+}
+
+h4:hover {
+    cursor: pointer;
+}
+
+#g_timer {
+    /* display: inline-block; */
+    text-align: center;
+
+    color: white;
+    background-color: darkred;
+}
+
+#g_question {
+    text-align: center;
+}
+
+#g_answers {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#g_answers>h4{
+    padding: 10px;
+}
+
+#g_reset {
+    display: flex;
+    justify-content: center;
+}
+
+#g_reset>input{
+    padding: 15px;
+
+    font-size: 14pt;
+    color: white;
+    background-color: darkred;
+    border: none;
+}
+
+.selected {
+    border: 1px dashed blue;
 }
 
 
-/* PAGE RESPONSIVENESS */
+/* PAGE RESPONSIVENESS ____________________ */
 @media only screen and (max-width: 980px) {
     .navContent {
         width: 90%;
