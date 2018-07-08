@@ -201,14 +201,5 @@ var game = {
 
 // run game when page loads
 $().ready(function() {
-    // COUNTER FOR TESTING --------------------
-    // var foo = 0;
-    // $("#test_count").html(`<p>${foo}</p>`);
-    // setInterval(function() {
-    //     foo++;
-    //     $("#test_count").html(`<p>${foo}</p>`);
-    // }, 1000);
-    // ----------------------------------------
-
     game.playGame();
 })
