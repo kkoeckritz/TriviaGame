@@ -43,7 +43,17 @@ var questions = {
             a3: "You're going to have to go to Florida"
         },
         correct: "a3"
-    }
+    },
+    5: {
+        ask: "\"Do you Uber? Doesn't matter - take me to Crater Lake!\"",
+        answers: {
+            a1: "Okay, let's go to Mississippi",
+            a2: "Looks like we're going to Washington",
+            a3: "That's all the way in Oregon; how about you walk there yourself!"
+        },
+        correct: "a3"
+    },
+
 }
 
 var game = {
